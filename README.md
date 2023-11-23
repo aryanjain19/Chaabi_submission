@@ -1,4 +1,4 @@
-# Chaabi Hiring: Soultion
+# Chaabi Hiring: Solution
 This repository contains all the files involved in solving the problem statement given by Chaabi in its Placement drive. It was submitted by -
 Aryan Jain
 Roll Number 200201
@@ -193,4 +193,4 @@ I recommend checking with local liquor stores or online platforms that specializ
 ```
 
 ## Note
-This softare use some API keys which have been provided by Aryan intentionally for the use of Company Chaabi to test and validate this code.  Feel free to use the keys in the code for validating the software
+This softare use some API keys which have been provided by Aryan intentionally for the use of Company Chaabi to test and validate this code.  Feel free to use the keys in the code for validating the software.
