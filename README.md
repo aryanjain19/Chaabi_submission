@@ -37,7 +37,7 @@ It will start the conversation loop and will send the user queries to the local 
 #### Enter Queries
 Now you will be able to see `Please Enter query:` in the terminal. Write your query and press enter key. Please give some time for program to generate answer and loop will continue.
 
-## Novel Features
+## Novel Features & Sample Queries
 - #### Memory Based contexual answers
 This is an additional feature in the program that allows it to answer questions based on the context of the previous conversations.
 The following is series of the example query which the model was given - 
