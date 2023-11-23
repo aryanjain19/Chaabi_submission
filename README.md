@@ -10,7 +10,7 @@ Aryan Jain, Roll Number 200201, IIT Kanpur, aryanj20@iitk.ac.in
 - #### call_api.py
     The main file which takes in the query of the user, calls the API and maintain loop as a conservation with the user continues.
 - #### getdata.ipynb
-    Jupyter Notebook used to collect data, convert it into embeddings with OpenAI API and save it into Qdrant vector DB using Qdrant API.
+    Jupyter Notebook which was used to collect data, convert it into embeddings with OpenAI API and save it into Qdrant vector DB using Qdrant API.
 
 ## Setup
 
@@ -18,11 +18,11 @@ Aryan Jain, Roll Number 200201, IIT Kanpur, aryanj20@iitk.ac.in
 Please ensure the following librabries of Python >= 3 are installed:
 `flask`, `requests`, `os`, `openai`, `qdrant_client`
 
-If you wish to retrain the data and run the getdata.ipynb please install the following libraries as well:
+If you wish to retrain the data and run the getdata.ipynb, please install the following libraries as well:
  `pandas`, `tiktoken`, `uuid`, `pickel`
 
 #### Start the server
-Simply run the file run_api.py or enter the following command in the repository:
+Simply run the file run_api.py or enter the following command in the terminal in the repository:
 ```
 python run_api.py
 ```
@@ -35,9 +35,9 @@ python call_api.py
 It will start the conversation loop and will send the user queries to the local server using the API.
 
 #### Enter Queries
-Now you will be able to see `Please Enter query:` in the terminal. Write your query and press enter key. Please give some time program to generate answer and loop will continue.
+Now you will be able to see `Please Enter query:` in the terminal. Write your query and press enter key. Please give some time for program to generate answer and loop will continue.
 
-## Additional Features
+## Novel Features
 - #### Memory Based contexual answers
 This is an additional feature in the program that allows it to answer questions based on the context of the previous conversations.
 The following is series of the example query which the model was given - 
@@ -176,18 +176,7 @@ Based on the information provided, the product "Daisy Coffee Mugs - Moon M215" i
 
 Please note that the above information is specific to the product "Daisy Coffee Mugs - Moon M215" and may not be relevant to other products or variants. If you have any further questions or require assistance with the purchase, feel free to ask.
  ----------------------------------------------
-
-Entry your query -
-
-i want to buy Vodka
-Generating Answer ... Done
-Based on your query, you mentioned that you want to buy Vodka. Unfortunately, the previous information provided does not include any recommendations for Vodka. However, based on your query, it seems that you are interested in purchasing Vodka from the "Kitchen, Garden & Pets" category, specifically the "Crockery & Cutlery" sub-category.
-
-I apologize for the confusion, but please note that Vodka is a type of alcoholic beverage and not a crockery or cutlery item. It is usually sold in liquor or beverage stores, rather than under the "Crockery & Cutlery" category.
-
-I recommend checking with local liquor stores or online platforms that specialize in selling alcoholic beverages to find a suitable brand and type of vodka that meets your preferences. Please ensure that you are of legal drinking age in your jurisdiction before purchasing any alcoholic beverages.
- ----------------------------------------------
 ```
 
 ## Note
-This softare use some API keys which have been provided by Aryan intentionally for the use of Company Chaabi to test and validate this code.  Feel free to use the keys in the code for validating the software.
+This softare uses some API keys which have been provided by Aryan (owner of the repository) intentionally for the use of Company Chaabi to test and validate this code.  Feel free to use the keys provided or your own keys for validating the software.
