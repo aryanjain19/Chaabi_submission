@@ -1,9 +1,6 @@
 # Chaabi Hiring: Solution
 This repository contains all the files involved in solving the problem statement given by Chaabi in its Placement drive. It was submitted by -
-Aryan Jain
-Roll Number 200201
-IIT Kanpur
-aryanj20@iitk.ac.in
+Aryan Jain, Roll Number 200201, IIT Kanpur, aryanj20@iitk.ac.in
 
 ## Solution Content
 - #### llm_model.py
